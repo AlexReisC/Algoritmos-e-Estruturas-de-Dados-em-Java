@@ -1,7 +1,7 @@
 package algoritmosDeOrdenacao;
 
 public class MergeSort {
-    public static void insertionSort(int[] vetor){
+    public static void mergeSort(int[] vetor){
         
     }
 
