@@ -45,11 +45,12 @@ public class ListaDuplamenteEncadeada {
 
     public void imprimir(){
         Node aux = primeiro;
+        System.out.print("NULL");
         while (aux != null) {
-            System.out.print(aux.getValor() + " ");
+            System.out.print(" <- " + aux.getValor() + " -> ");
             aux = aux.getProximo();
         }
-        System.out.println();
+        System.out.println("NULL");
     }
 
     public boolean buscar(int valor){

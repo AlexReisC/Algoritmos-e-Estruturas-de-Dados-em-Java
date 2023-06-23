@@ -84,9 +84,10 @@ public class ListaEncadeada {
     public void imprimir(){
         No aux = primeiroNo;
         while (aux != null) {
-            System.out.print(aux.getValor() + " ");
+            System.out.print(aux.getValor() + " -> ");
             aux = aux.getProximoNo();
         }
+        System.out.println("NULL");
     }
 
     public static void main(String[] args) {
