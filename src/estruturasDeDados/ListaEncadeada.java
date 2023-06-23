@@ -1,10 +1,10 @@
 package estruturasDeDados;
 
-public class Lista {
+public class ListaEncadeada {
     private No primeiroNo;
     private No ultimoNo;
 
-    public Lista() {
+    public ListaEncadeada() {
         this.primeiroNo = null;
         this.ultimoNo = null;
     }
@@ -90,7 +90,7 @@ public class Lista {
     }
 
     public static void main(String[] args) {
-        Lista lista = new Lista();
+        ListaEncadeada lista = new ListaEncadeada();
         lista.inserirInicio(1);
         lista.inserirFim(2);
         lista.inserirInicio(5);
