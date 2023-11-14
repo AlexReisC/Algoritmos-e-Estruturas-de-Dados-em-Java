@@ -58,6 +58,10 @@ public class ArvoreBinaria {
         }
     }
 
+    // public int altura()
+
+    // public int qtdNos()
+
     public boolean inserir(int valor){
         if(isEmpity() == true){
             raiz = new NoDaArvore(valor);
