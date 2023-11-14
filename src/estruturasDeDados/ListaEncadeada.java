@@ -1,8 +1,8 @@
 package estruturasDeDados;
 
 public class ListaEncadeada {
-    private No primeiroNo;
-    private No ultimoNo;
+    No primeiroNo;
+    No ultimoNo;
 
     public ListaEncadeada() {
         this.primeiroNo = null;

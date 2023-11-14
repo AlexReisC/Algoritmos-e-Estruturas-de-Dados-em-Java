@@ -1,8 +1,8 @@
 package estruturasDeDados;
 
 public class Pilha {
-    private No primeiro;
-    private No ultimo;
+    No primeiro;
+    No ultimo;
 
     public Pilha() {
         this.ultimo = null;
@@ -79,5 +79,3 @@ public class Pilha {
     }
 
 }
-
-    

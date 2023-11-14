@@ -1,8 +1,8 @@
 package estruturasDeDados;
 
 public class No {
-    private No proximoNo;
-    private int valor;
+    No proximoNo;
+    int valor;
 
     public No(No proximoNo, int valor) {
         this.proximoNo = proximoNo;

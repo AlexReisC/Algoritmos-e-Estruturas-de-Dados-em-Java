@@ -1,8 +1,8 @@
 package estruturasDeDados;
 
 public class ListaDuplamenteEncadeada {
-    private Node primeiro;
-    private Node ultimo;
+    Node primeiro;
+    Node ultimo;
     public ListaDuplamenteEncadeada() {
         primeiro = null;
         ultimo = null;
